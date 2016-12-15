@@ -1,0 +1,96 @@
+/*
+
+font-family: 'Aref Ruqaa', serif;
+font-family: 'Raleway', sans-serif;
+
+#F2B4D3 - pink accent color
+
+*/
+*,
+html,
+body {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+ }
+ body{
+  font-size: 14px;
+  padding: 50px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+img{
+  height: 100px;
+  width: 300px;
+  display:block;
+  margin-top: 5%;
+  border-radius: 100%;
+}
+.rale{
+  font-family: 'Aref Ruqaa', serif;
+  color: #F2B4D3;
+}
+.subtitles{
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #F2B4D3;
+  font-family: 'Aref Ruqaa', serif;
+}
+p{
+  text-align: center;
+}
+/*Sliding words*/
+.welcome{
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+}
+.welcome-span {
+ display: inline-block;
+  color: #F2B4D3;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  -webkit-animation: move 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 1s;
+}
+.welcome-b{
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+@keyframes move {
+  0%  { top: 0px; }
+  20% { top: -50px; }
+  40% { top: -100px; }
+  60% { top: -150px; }
+  80% { top: -200px; }
+}
+.wrap{
+  padding: 2em 5em;
+  font: normal 40px/50px Arial, sans-serif;
+  color: #999;
+}
+.welcome-message{
+  display: block;
+  width: 450px;
+  margin-left: 30%;
+
+}
+.bookslink{
+  color: #F2B4D3;
+  margin-left: 40%;
+}
+
+.titles{
+  text-align: center;
+  font-family: 'Aref Ruqaa', serif;
+  color: #F2B4D3;
+
+}
